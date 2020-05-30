@@ -1,0 +1,42 @@
+*********INTEGRANTES**************
+---CARLOS ZAMBRANO LAMAR-----
+---DANIEL RICO DEAGUAS-----
+---LUIS MONTES RUIZ-------
+---NESTOR BORJA SALCEDO--- 
+
+***********
+-----www.bigvicorp.com------
+-----www.bigvicorp.com/cpanel-------
+
+
+*********** USUARIO*****************
+USER:    bigvicor1
+PASSWOR: Bigvicorp01*
+
+CONFIGURAR LOS SIGUIENTES ARCHIVOS
+EN CASO DE SUBRILO AL SITIO WEB
+
+
+************configAPP***************
+<?php 
+const SERVER = "localhost";
+const DB     = "bigvicor_biblioteca";
+const USER   = "bigvicor_user";
+const PASS   = "Colombia2019*";
+const SGBD   = "mysql:host=".SERVER.";dbname=".DB; 
+
+//SE COLOCAN LAS LLAVES QUE SE VAN A MOSTAR EN LA URL
+// METODO DE ENCRIPTACION Y DESENCRIPTACION
+	const METHOD = "AES-256-CBC";
+	const SECRET_KEY = "BP2019";
+	const SECRET_IV = "231112";
+
+?>
+
+***********configGenerales**********
+<?php 
+const SERVERURL ="https://www.bigvicorp.com/";
+const COMPANY = "SISTEMA BIBLIOTECARIO";
+date_default_timezone_set("America/Bogota");
+
+?>
